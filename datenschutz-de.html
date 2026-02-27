@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung - KinderNotCommunity</title>
+    <style>
+body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #374151;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #F9FAFB;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #111827;
+            font-size: 32px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #2563EB;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #111827;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #2563EB;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        strong {
+            color: #111827;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Datenschutzerklärung</h1>
+
+        <h2>1. Verantwortlicher</h2>
+        <p>
+            Seçkin Çaylak<br>
+            Prenzlauer Promenade 49E<br>
+            13089 Berlin<br>
+            E-Mail: <a href="mailto:seckin.caylak@gmail.com">seckin.caylak@gmail.com</a>
+        </p>
+
+        <h2>2. Allgemeine Hinweise</h2>
+        <p>
+            Der Schutz Ihrer personenbezogenen Daten ist wichtig. Personenbezogene Daten werden ausschließlich im Rahmen der gesetzlichen Bestimmungen der Datenschutz-Grundverordnung (DSGVO) verarbeitet.
+        </p>
+        <p>
+            Die Plattform kann zum Anzeigen von Meldungen grundsätzlich ohne Login genutzt werden. Eine Anmeldung per Google (über Supabase Auth) wird nur für Nutzer angeboten, die Meldungen abgeben möchten.
+        </p>
+
+        <h2>3. Verarbeitete Daten</h2>
+        <p>Je nach Nutzung können insbesondere folgende Daten verarbeitet werden:</p>
+        <ul>
+            <li><strong>IP-Adresse</strong> und technische Zugriffsdaten (z. B. Browsertyp, Betriebssystem, Geräteinformationen, Zeitpunkt des Zugriffs) im Rahmen von Server-Logs zur Sicherheit und Fehleranalyse</li>
+            <li><strong>Gerätekennung (device_id)</strong> – von uns erzeugt und im Browser-Cookie/Local Storage gespeichert</li>
+            <li><strong>Onboarding-/Einwilligungsnachweis</strong> – Protokoll, dass der medizinische Haftungsausschluss über die device_id akzeptiert wurde</li>
+            <li><strong>Kontodaten (nur bei Meldungen)</strong> – im Rahmen des Google-Logins durch Supabase Auth verarbeitete Daten (z. B. Supabase User ID)</li>
+            <li><strong>Community-Meldungen</strong> – von Nutzern eingetragene Warte-/Auslastungsinformationen (es ist nicht beabsichtigt, Gesundheitsdaten über identifizierbare Personen zu erheben)</li>
+        </ul>
+        <p><strong>Wir erheben keine Standortdaten.</strong></p>
+        <p>
+            Hinweis: In unserer Anwendungsdatenbank speichern wir keine E-Mail-Adresse oder Namen. Bei Nutzung des Google-Logins können diese Angaben jedoch beim Identitätsanbieter und in der Supabase-Auth-Verwaltung zur Kontoverwaltung (z. B. Missbrauchsprävention) sichtbar sein.
+        </p>
+
+        <h2>4. Zwecke der Verarbeitung</h2>
+        <ul>
+            <li>Bereitstellung und Betrieb der Plattform</li>
+            <li>Anzeige community-basierter Warte-/Auslastungsinformationen</li>
+            <li>Gewährleistung von IT-Sicherheit und Stabilität (Logs, Angriffserkennung)</li>
+            <li>Missbrauchsprävention (z. B. device-/konto-basierte Rate-Limits; eine Meldung alle 5 Stunden)</li>
+        </ul>
+
+        <h2>5. Rechtsgrundlagen</h2>
+        <ul>
+            <li>Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am sicheren Betrieb und an der Missbrauchsprävention)</li>
+            <li>Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung bei Nutzung eines Kontos zum Abgeben von Meldungen)</li>
+            <li>Art. 6 Abs. 1 lit. c DSGVO (rechtliche Verpflichtungen, soweit anwendbar)</li>
+        </ul>
+
+        <h2>6. Cookies / Device ID</h2>
+        <p>
+            Die Plattform speichert für essentielle Funktionen eine device_id im Browser-Cookie oder Local Storage. Diese wird verwendet, um:
+        </p>
+        <ul>
+            <li>die Zustimmung zum medizinischen Haftungsausschluss beim Onboarding zu dokumentieren,</li>
+            <li>Missbrauch zu reduzieren (z. B. Begrenzung von Meldungen auf alle 5 Stunden),</li>
+            <li>Sicherheit und Stabilität zu unterstützen.</li>
+        </ul>
+        <p>
+            Die device_id wird nicht für Marketing oder Cross-Site-Tracking genutzt.
+        </p>
+
+        <h2>7. Hosting und Auftragsverarbeitung</h2>
+        <p>
+            Für die technische Bereitstellung nutzen wir <strong>Supabase</strong> als externen Backend-as-a-Service-Anbieter.
+        </p>
+        <p>
+            Die Verarbeitung erfolgt im Rahmen einer Auftragsverarbeitung gemäß Art. 28 DSGVO. Soweit anwendbar, werden Serverstandorte innerhalb der EU/des EWR gewählt.
+        </p>
+
+        <h2>8. Speicherdauer</h2>
+        <ul>
+            <li>Server-Access-Logs: in der Regel <strong>30 Tage</strong> (bei Sicherheitsvorfällen ggf. länger)</li>
+            <li>device_id und Onboarding-/Einwilligungsnachweis: bis zur Löschung auf dem Gerät oder auf Löschanfrage; Prüfung nach spätestens <strong>12 Monaten</strong> Inaktivität</li>
+            <li>Community-Meldungen: solange erforderlich; Meldungen können über die Zeit <strong>aggregiert</strong> oder gelöscht werden</li>
+        </ul>
+
+        <h2>9. Rechte der betroffenen Personen</h2>
+        <p>Sie haben das Recht auf:</p>
+        <ul>
+            <li>Auskunft (Art. 15 DSGVO)</li>
+            <li>Berichtigung (Art. 16 DSGVO)</li>
+            <li>Löschung (Art. 17 DSGVO)</li>
+            <li>Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+            <li>Datenübertragbarkeit (Art. 20 DSGVO)</li>
+            <li>Widerspruch (Art. 21 DSGVO)</li>
+        </ul>
+        <p>
+            Anfragen können Sie per E-Mail stellen: <a href="mailto:seckin.caylak@gmail.com">seckin.caylak@gmail.com</a>
+        </p>
+
+        <h2>10. Beschwerderecht</h2>
+        <p>
+            Sie haben zudem das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren.
+        </p>
+        <p>
+            Zuständige Aufsichtsbehörde in Berlin:<br>
+            <strong>Berliner Beauftragte für Datenschutz und Informationsfreiheit</strong><br>
+            Alt-Moabit 59-61, 10555 Berlin<br>
+            Web: <a href="https://www.datenschutz-berlin.de" target="_blank" rel="noopener">www.datenschutz-berlin.de</a>
+        </p>
+
+    </div>
+</body>
+</html>
